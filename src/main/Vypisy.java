@@ -41,7 +41,6 @@ public class Vypisy {
             vypisFunkcionality();
         }
         if(cisloFunkcionality>0 && cisloFunkcionality < 6) {
-            System.out.println("Zvolte cislo podla toho, aky test sa ma vykonat.");
             switch (cisloFunkcionality) {
                 case 1:
                     vypisTesty1();
@@ -74,7 +73,7 @@ public class Vypisy {
             testyHandler.closeBrowser();
         }
         if(cisloPrikazu>0 && cisloPrikazu < 14) {
-            System.out.println("Zvolte cislo podla toho, aky test sa ma vykonat.");
+            System.out.println("Spustil sa test c. : " + cisloPrikazu + ".");
             switch (cisloPrikazu) {
                 case 1: testyHandler.Test1(); break;
                 case 2: testyHandler.Test2(); break;
